@@ -1,0 +1,33 @@
+{
+  "name": "wyszukiwarka_gifow",
+  "version": "1.0.0",
+  "description": "apka do wyszukiwania i wyswietlania gifow",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server",
+  
+    "watch": "node_modules/.bin/browser-sync start --server --files css/*.css *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawMas/18.8-wyszukiwarka-gifow.git"
+  },
+  "author": "DAve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawMas/18.8-wyszukiwarka-gifow/issues"
+  },
+  "homepage": "https://github.com/DawMas/18.8-wyszukiwarka-gifow#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "globstar": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^5.2.0",
+    "rimraf": "^2.6.3"
+  }
+}
