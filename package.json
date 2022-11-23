@@ -19,6 +19,6 @@
   "homepage": "https://github.com/DawMas/18.8-wyszukiwarka-gifow#readme",
   "devDependencies": {
     "http-server": "^0.11.1",
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.27.10"
   }
 }
